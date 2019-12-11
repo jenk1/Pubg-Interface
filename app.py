@@ -25,7 +25,7 @@ def predict():
     '''
     For rendering results on HTML GUI
     '''
-    
+
     initial_features = [float(x) for x in request.form.values()]
     final_features = []
     final_features.append(noInf(initial_features[0], initial_features[3]))
@@ -43,4 +43,4 @@ def predict():
     return render_template('index.html', prediction_text='Player\'s percentile is: {}'.format(output))
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
