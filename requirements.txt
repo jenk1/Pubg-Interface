@@ -69,7 +69,6 @@ pandocfilters==1.4.2
 parso==0.4.0
 patsy==0.5.1
 pickleshare==0.7.5
-Pillow==6.0.0
 PIMS==0.4.1
 pluggy==0.12.0
 prometheus-client==0.6.0
@@ -118,7 +117,6 @@ traitlets==4.3.2
 urllib3==1.24.2
 wcwidth==0.1.7
 webencodings==0.5.1
-Werkzeug==0.15.2
 widgetsnbextension==3.5.1
 win-inet-pton==1.1.0
 wincertstore==0.2
